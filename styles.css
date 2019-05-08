@@ -9,6 +9,8 @@ body {
   background-image: url('./images/bg-hero-desktop.svg');
   background-color: hsl(193, 100%, 96%);
   padding: 3em;
+  height: 100vh;
+  margin-bottom: 8em;
 }
 
 .header-container {
@@ -33,7 +35,6 @@ body {
 .demo-btn {
   background-color: white;
   cursor: pointer;
-  border-radius: 25%;
   line-height:  3;
   padding: .3em;
   border-radius: 30em;
@@ -66,7 +67,7 @@ p {
 }
 
 .intro-header-container {
-  max-width: 400px;
+  max-width: 450px;
   margin-right: auto;
 }
 
@@ -84,4 +85,39 @@ p {
   color: white;
   line-height:  3.5;
   min-width: 25em;
+}
+
+.work-flow {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.103);
+  max-height: 600px;
+  border-radius: 1em;
+  margin-bottom: 2em;
+  margin-right: 4em;
+  margin-left: 4em;
+  padding: 4em;
+  justify-content: space-evenly;
+}
+
+.card-info-container {
+  max-width: 400px;
+  padding-top: 2.5em;
+  
+}
+.card-info-container > p {
+  color: hsl(208, 11%, 55%);
+  font-weight: 300;
+}
+
+.card-img-container {
+  max-width: 400px;
+}
+.card-img-container > img {
+  max-width:100%;
 }
